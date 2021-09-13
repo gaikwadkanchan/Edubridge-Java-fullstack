@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script src="script2.js"></script>
+<style>
+body{
+    
+	font-family: Arial, Helvetica, sans-serif;
+   
+	 background: url(IMG1.jpg) no-repeat center fixed; 
+ 
+ 	background-size: cover;
+  color:black;
+}
+
+</style>
+</head>
+<body align="center">
+<div id="mainform">
+<div class="innerdiv">
+<!-- Required Div Starts Here -->
+<form action='data2.php' id="myForm" method='post' name="myForm">
+<h3>LOGIN</h3>
+<table align="center">
+
+<tr>
+<td>Email</td>
+<td><input id='email1' name='email' onblur="validate('email', this.value)" type='text'></td>
+<td>
+<div id='email'></div>
+</td>
+</tr>
+<tr>
+<td>Password</td>
+<td><input id='password1' name='password' onblur="validate('password', this.value)" type='password'></td>
+<td>
+<div id='password'></div>
+</td>
+</tr>
+</table>
+<input onclick="checkForm()" type='button' value='Submit'>
+</form>
+</div>
+</body>
+</html>
