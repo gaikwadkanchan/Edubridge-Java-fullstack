@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("Img/k2.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/*header.topbar{
+    background-color: darkslategray;
+    height: 30px;
+    color: white;
+}
+
+header.topbar.icons{
+    font-size: 20px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    padding: 10px;
+    background: #2ecc71;
+    color: white;
+}
+
+header.topbar.auth{
+    text-align: right;
+    font-size: 20px;
+}*/
+
+/*.nav1{
+    background-color: blanchedalmond;
+    overflow: hidden;
+}
+
+.nav1 a{
+    float: left;
+    color: blue
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}*/
+
+.navbar {
+    overflow: hidden;
+    background-color:blanchedalmond ;   /*#333;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 20px;
+    color: blue;  /* white;*/
+    text-align: center;
+    padding: 14px 30px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 20px;    
+    border: none;
+    outline: none;
+    color: blue;
+    /*color: white;*/
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: palegreen  /* green;*/
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.search input[type=text]{
+    width: 200px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+}
+.search{
+    float: right;
+    margin: 7px;
+    /*font-size: 20px;
+    color: #2ecc71;
+    align-content: right;*/
+}
+/*.search i{
+    font-size: 30px;
+    align-content: right;
+}*/
+
+.Info{
+    text-align: center;
+}
+
+.Info h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    color:crimson;
+    align-content: center;
+}
+
+.Image {   
+    display: block;
+    height: 30%;
+    width: 30%;
+    margin-left: auto; 
+    margin-right: auto;  
+    text-align: center;
+    }  
+    .Image img{
+        border: 1px solid black;
+    }
+.Image p{
+    font-size: 20px;
+    color: black;
+}
